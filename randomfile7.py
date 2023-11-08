@@ -1,9 +1,6 @@
 import random
 import os
 
-print("hello")
-print("hello")
-print("hello")
 # Generate a random Python file name
 file_name = f"random_{random.randint(1, 1000)}.py"
 

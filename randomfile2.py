@@ -1,11 +1,8 @@
 import random
 import os
 
-print("hello")
-print("hello")
-print("hello")
 # Generate a random Python file name
-file_name = f"random_{random.randint(1, 1000)}.py"
+file_name = f"random_{random.randint(1000, 2000)}.py"
 
 # Generate some random Python code for the file content
 file_content = f"""
@@ -13,7 +10,7 @@ file_content = f"""
 import random
 
 def generate_random_number():
-    return random.randint(1, 100)
+    return random.randint(50, 150)
 
 if __name__ == "__main__":
     number = generate_random_number()
