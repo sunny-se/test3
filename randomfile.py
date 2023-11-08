@@ -7,6 +7,7 @@ file_name = f"random_{random.randint(1, 1000)}.py"
 file_content = f"""
 # Random Python File
 import random
+import os
 
 def generate_random_number():
     return random.randint(1, 100)
