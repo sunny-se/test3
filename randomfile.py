@@ -1,13 +1,14 @@
 import random
-import os
 
 # Generate a random Python file name
 file_name = f"random_{random.randint(1, 1000)}.py"
+a = 10
 
 # Generate some random Python code for the file content
 file_content = f"""
 # Random Python File
 import random
+import os
 
 def generate_random_number():
     return random.randint(1, 100)
